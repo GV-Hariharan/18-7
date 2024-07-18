@@ -32,3 +32,27 @@ public class Main{
 		
 	}
 }
+STRINGS
+public class Main{
+	public static void main(String[] args){
+		String txt="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		System.out.println("the length of the string is:"+txt.length());
+		
+	}
+}
+public class Main{
+	public static void main(String[] args){
+		String txt="Hello World";
+		System.out.println(txt.toUpperCase());
+		System.out.println(txt.toLowerCase());
+		
+	}
+}
+
+public class Main{
+	public static void main(String[] args){
+		String txt="Please locate where'locate'occurs!";
+		System.out.println(txt.indexOf("locate"));
+		
+	}
+}
