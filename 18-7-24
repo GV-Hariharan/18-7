@@ -1,3 +1,7 @@
+
+
+ 
+18-07-2024 Codes
 public class Main{
 	public static void main(String[] args){
 		int myInt=9;
@@ -56,3 +60,533 @@ public class Main{
 		
 	}
 }
+
+Program 1:
+public class Main
+{
+public static void main(String[] args)
+{
+    int myInt=9;
+    double myDouble=myInt;
+    System.out.println(myInt);
+    System.out.println(myDouble);
+int sum1=100+50;
+    int sum2=sum1+250;
+    int sum3=sum2+sum2;
+System.out.println(sum1);
+    System.out.println(sum2);
+    System.out.println(sum3);
+}
+}
+
+ 
+
+Program 2:
+public class Main
+{
+public static void main(String[] args)
+{
+    String a="hello";
+    int sum4=a+sum3;
+    System.out.println(sum4);
+
+}
+}
+
+ 
+
+Program 3:
+public class Main
+{
+public static void main(String[] args)
+{
+    int x,y;
+    x=20;
+    y=(x==1)?61:90;
+    System.out.println("Value of y is: "+ y);
+    y=(x==20)?61:90;
+    System.out.println("Value of y is: "+y);
+
+}
+}
+
+ 
+
+Program 4:
+public class Main
+{
+public static void main(String[] args)
+{
+    String txt="abcdefghijklmnopqrstuvwxyz";
+    System.out.println("The length og the txt string is: "+txt.length());
+}
+}
+
+ 
+
+Program 5:
+public class Main
+{
+public static void main(String[] args)
+{
+    String txt="Hello World";
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.toLowerCase());
+}
+}
+
+ 
+
+Program 6:
+public class Main
+{
+public static void main(String[] args)
+{
+    String text="Please locate where 'locate' occurs!";
+    System.out.println(text.indexOf("locate"));
+}
+}
+
+ 
+
+
+
+
+22-07-2024 Codes (Theory)
+
+Program 1:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    String firstName= "John";
+    String lastName="Doe";
+    System.out.println(firstName.concat(lastName));
+}
+}
+ 
+
+Program 2:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    String x="10";
+    int y=20;
+    String z=x+y;
+    System.out.println(z);
+}
+}
+ 
+
+
+
+Program 3:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    String txt= "We are the so-called \"Vikings\" from the north.";
+    System.out.println(txt);
+}
+}  
+
+
+
+Program 4:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.max(5,10));
+}
+}
+ 
+
+
+Program 5:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.min(5,10));
+}
+}
+ 
+
+
+Program 6:
+ import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.sqrt(25));
+}
+}
+ 
+
+
+Program 7:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.abs(-33));
+}
+}
+ 
+
+
+Program 8:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.random()); /* only from 0.0 (inc) to 1.0 (exc) and cannot be specified */
+}
+}
+ 
+
+
+23-7-24 Java Lab Codes
+Program 1:
+class Main {
+    public static void main(String[] args) {
+        boolean isJavafun = true;
+        boolean isFishtasty = false;
+        System.out.println(isJavafun);
+        System.out.println(isFishtasty);
+    }
+ 
+
+Program 2:
+class Main {
+    public static void main(String[] args) {
+        int x= 10;
+        int y=9;
+        System.out.println(x>y);
+    }
+}
+ 
+
+Program 3:
+class Main {
+    public static void main(String[] args) {
+        if (20>18){
+            System.out.println("20 is greater than 18");
+    }
+}
+ 
+
+Program 4:
+class Main {
+    public static void main(String[] args) {
+        int time = 20;
+        if (time<18){
+            System.out.println("good morning");
+        else
+        {
+            System.out.println("good evening");
+        }
+}
+}
+ 
+
+Program 5:
+class Main {
+    public static void main(String[] args) {
+        int time = 22;
+        if (time<10){
+            System.out.println("good morning");
+        }
+        else if(time<20)
+        {
+            System.out.println("good day");
+        }
+        else
+        { 
+            System.out.println("good evening");
+        }
+}
+}
+ 
+
+Program 6:
+class Main {
+    public static void main(String[] args) {
+        int day = 4;
+        switch(day)
+        {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                 break;
+            case 5:
+                System.out.println("Friday");
+                 break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
+}
+}
+ 
+
+Program 7:
+class Main {
+    public static void main(String[] args) {
+        int i=0;
+        while(i<5)
+        {
+         System.out.println(i);
+         i++;
+        }
+}
+}
+ 
+
+Program 8:
+class Main {
+    public static void main(String[] args) {
+        int i=0;
+        do
+        {
+            System.out.println(i);
+            i++;
+        }
+        while(i<5);
+}
+}
+ 
+
+Program 9:
+class Main {
+    public static void main(String[] args) {
+        for
+        {
+           
+        }
+      
+    }
+}
+
+ 
+
+Program 10:
+class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<5;i++)
+        {
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 11:
+class Main {
+    public static void main(String[] args) {
+        String[] cars={"Volvo","BMW","Ford","Mazda"};
+        for(String i : cars)
+        {
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 12:
+class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<10;i++)
+        {
+            if (i==4)
+            {
+                break;
+            }
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 13:
+class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<10;i++)
+        {
+            if (i==4)
+            {
+                continue;
+            }
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 14:
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+        String username;  //enter username and press enter
+        System.out.println("Enter username");
+        username=myObj.nextLine();
+        System.out.println("Username is: "+username);
+      
+    }
+}
+
+
+
+
+
+25/07/24 Lab Codes
+
+Program 1:
+class Pgm1{
+    public static void main(String[] args)
+    {
+        char[] helloArray={'h','e','l','l','o'};
+        String HelloString = new String(helloArray);
+        System.out.println(HelloString);
+    }
+}
+
+Program 2 (Calculator): 
+import java.util.*;
+
+class Main{
+    public static void main(String[] args)
+    {
+        System.out.println("Welcome to the Calculator.");
+        int flag=0;
+        while(flag==0)
+        {
+            System.out.println("Press 1 to Add.");
+            System.out.println("Press 2 to Subtract");            
+            System.out.println("Press 3 to Multiply");
+            System.out.println("Press 4 to Divide");
+            System.out.println("Press 5 for Modulus");
+            int choice;
+            Scanner sc = new Scanner(System.in);
+            choice= sc.nextInt();
+            switch(choice)
+            {
+                case 1:
+                    int num1;
+                    int num2;
+                    System.out.println("Enter Number 1: ");
+                    num1=sc.nextInt();
+                    System.out.println("Enter Number 2: ");
+                    num2=sc.nextInt();
+                    int sum;
+                    sum=num1+num2;
+                    System.out.println("Sum of "+num1+" and "+num2+" is "+sum);
+                    break;
+                    
+                case 2:
+                    int num3;
+                    int num4;
+                    System.out.println("Enter Number 1: ");
+                    num3=sc.nextInt();
+                    System.out.println("Enter Number 2: ");
+                    num4=sc.nextInt();
+                    int diff;
+                    diff=num3-num4;
+                    System.out.println("Difference of "+num3+" and "+num4+" is "+diff);
+                    break;
+            
+               case 3:
+                    int num5;
+                    int num6;
+                    System.out.println("Enter Number 1: ");
+                    num5=sc.nextInt();
+                    System.out.println("Enter Number 2: ");
+                    num6=sc.nextInt();
+                    int mul;
+                    mul=num5*num6;
+                    System.out.println("Product of "+num5+" and "+num6+" is "+mul);
+                    
+                    break;
+
+                case 4:
+                    int num7;
+                    int num8;
+                    System.out.println("Enter Number 1: ");
+                    num7=sc.nextInt();
+                    System.out.println("Enter Number 2: ");
+                    num8=sc.nextInt();
+                    int div;
+                    div=num7/num8;
+                    System.out.println("Division of "+num7+" and "+num8+" is "+div);
+                    
+                    break;
+            }
+            System.out.println("Do you want to coninue? 1 for yes / 2 for no");
+            int yn;
+            Scanner cc = new Scanner(System.in);
+            yn=cc.nextInt();
+            if(yn==2)
+            {
+                System.out.println("Thank you");
+               break;
+            }
+            else
+            {
+                continue;
+            }
+                
+            
+        }
+
+                
+        
+        
+    }
+}
+
