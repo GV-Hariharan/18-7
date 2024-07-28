@@ -1,0 +1,210 @@
+23-7-24 Java Lab Codes
+Program 1:
+class Main {
+    public static void main(String[] args) {
+        boolean isJavafun = true;
+        boolean isFishtasty = false;
+        System.out.println(isJavafun);
+        System.out.println(isFishtasty);
+    }
+ 
+
+Program 2:
+class Main {
+    public static void main(String[] args) {
+        int x= 10;
+        int y=9;
+        System.out.println(x>y);
+    }
+}
+ 
+
+Program 3:
+class Main {
+    public static void main(String[] args) {
+        if (20>18){
+            System.out.println("20 is greater than 18");
+    }
+}
+ 
+
+Program 4:
+class Main {
+    public static void main(String[] args) {
+        int time = 20;
+        if (time<18){
+            System.out.println("good morning");
+        else
+        {
+            System.out.println("good evening");
+        }
+}
+}
+ 
+
+Program 5:
+class Main {
+    public static void main(String[] args) {
+        int time = 22;
+        if (time<10){
+            System.out.println("good morning");
+        }
+        else if(time<20)
+        {
+            System.out.println("good day");
+        }
+        else
+        { 
+            System.out.println("good evening");
+        }
+}
+}
+ 
+
+Program 6:
+class Main {
+    public static void main(String[] args) {
+        int day = 4;
+        switch(day)
+        {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                 break;
+            case 5:
+                System.out.println("Friday");
+                 break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
+}
+}
+ 
+
+Program 7:
+class Main {
+    public static void main(String[] args) {
+        int i=0;
+        while(i<5)
+        {
+         System.out.println(i);
+         i++;
+        }
+}
+}
+ 
+
+Program 8:
+class Main {
+    public static void main(String[] args) {
+        int i=0;
+        do
+        {
+            System.out.println(i);
+            i++;
+        }
+        while(i<5);
+}
+}
+ 
+
+Program 9:
+class Main {
+    public static void main(String[] args) {
+        for
+        {
+           
+        }
+      
+    }
+}
+
+ 
+
+Program 10:
+class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<5;i++)
+        {
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 11:
+class Main {
+    public static void main(String[] args) {
+        String[] cars={"Volvo","BMW","Ford","Mazda"};
+        for(String i : cars)
+        {
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 12:
+class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<10;i++)
+        {
+            if (i==4)
+            {
+                break;
+            }
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 13:
+class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<10;i++)
+        {
+            if (i==4)
+            {
+                continue;
+            }
+            System.out.println(i);
+        }
+      
+    }
+}
+
+ 
+
+Program 14:
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+        String username;  //enter username and press enter
+        System.out.println("Enter username");
+        username=myObj.nextLine();
+        System.out.println("Username is: "+username);
+      
+    }
+}
+
+
