@@ -1,0 +1,117 @@
+22-07-2024 Codes (Theory)
+
+Program 1:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    String firstName= "John";
+    String lastName="Doe";
+    System.out.println(firstName.concat(lastName));
+}
+}
+ 
+
+Program 2:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    String x="10";
+    int y=20;
+    String z=x+y;
+    System.out.println(z);
+}
+}
+ 
+
+
+
+Program 3:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    String txt= "We are the so-called \"Vikings\" from the north.";
+    System.out.println(txt);
+}
+}  
+
+
+
+Program 4:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.max(5,10));
+}
+}
+ 
+
+
+Program 5:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.min(5,10));
+}
+}
+ 
+
+
+Program 6:
+ import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.sqrt(25));
+}
+}
+ 
+
+
+Program 7:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.abs(-33));
+}
+}
+ 
+
+
+Program 8:
+import java.util.*;
+
+class test
+{
+public static void main(String[] args)
+{
+    
+    System.out.println(Math.random()); /* only from 0.0 (inc) to 1.0 (exc) and cannot be specified */
+}
+}
