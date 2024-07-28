@@ -1,0 +1,60 @@
+WEEK 1 
+
+16/07/2024 Codes
+Program 1:
+public class Pgm1
+{
+public static void main(String[] args)
+{
+    System.out.println("Hello World");
+}
+}
+Output: 
+ 
+
+Program 2:
+public class Main
+{
+public static void main(String[] args)
+{
+    String name="John";
+    System.out.println(name);
+}
+}
+ 
+
+Program 3:
+public class Main
+{
+public static void main(String[] args)
+{
+    int myNum = 15;
+    System.out.println(myNum);
+}
+}
+ 
+
+Program 4:
+public class Main
+{
+public static void main(String[] args)
+{
+    int myNum = 15;
+    System.out.println(myNum);
+    myNum=20;
+    System.out.println(myNum);
+}
+}
+ 
+
+Program 5:
+
+public class Main
+{
+public static void main(String[] args)
+{
+    final int Num=15;
+    System.out.println(Num);
+    Num=29; error: cannot assign a value to final variable Num */
+}
+}
