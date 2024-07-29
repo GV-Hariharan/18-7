@@ -1,0 +1,94 @@
+1)Java Program to Check Armstrong Number Between Two Integers
+import java.util.Scanner;
+
+public class ArmstrongNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the lower bound: ");
+        int lowerBound = scanner.nextInt();
+        
+        System.out.print("Enter the upper bound: ");
+        int upperBound = scanner.nextInt();
+        
+        System.out.println("Armstrong numbers between " + lowerBound + " and " + upperBound + " are:");
+        for (int i = lowerBound; i <= upperBound; i++) {
+            if (isArmstrong(i)) {
+                System.out.print(i + " ");
+            }
+        }
+        scanner.close();
+    }
+    
+    public static boolean isArmstrong(int num) {
+        int originalNum = num;
+        int result = 0;
+        int n = String.valueOf(num).length();
+        
+        while (originalNum != 0) {
+            int remainder = originalNum % 10;
+            result += Math.pow(remainder, n);
+            originalNum /= 10;
+        }
+        
+        return result == num;
+    }
+}
+
+2)  Java Program to Print a Square Star Pattern with Hollow Inside
+import java.util.Scanner;
+
+public class SquareStarPattern {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the size of the square: ");
+        int size = scanner.nextInt();
+        
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                if (i == 0 || i == size - 1 || j == 0 || j == size - 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+        scanner.close();
+    }
+}
+
+
+
+
+3) Java Program to Find LCM of Two Numbers
+import java.util.Scanner;
+
+public class LCM {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+        
+        int lcm = findLCM(num1, num2);
+        
+        System.out.println("The LCM of " + num1 + " and " + num2 + " is " + lcm);
+        scanner.close();
+    }
+    
+    public static int findLCM(int a, int b) {
+        return (a * b) / findGCD(a, b);
+    }
+    
+    public static int findGCD(int a, int b) {
+        if (b == 0) {
+            return a;
+        }
+        return findGCD(b, a % b);
+    }
+}
